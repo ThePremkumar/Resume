@@ -297,14 +297,45 @@ hr{
 }
 
 
-/* ||SMALL */
-@media screen and (max-width: 576px){
+/* ||Mobile device size*/
+@media screen and (max-width: 426px){
     .continer{
         display: inline;
+        margin: 1px;
+        padding: 1px;
+        font-size: 1rem;
     
 }
 html{
     background-color: rgb(246, 246, 245);
-}
+    font-size: 1rem;
+   
 }
 
+.profile{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.profile img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.pk h1{
+    position: absolute;
+    top: 270px;
+    left: 60px;
+}
+
+.skill{
+   width: 320px;
+
+}
+.languages{
+   width: 320px;
+
+}
+
+}
